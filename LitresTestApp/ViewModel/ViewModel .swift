@@ -9,12 +9,18 @@ import SwiftUI
 
 class MainViewModel: ObservableObject {
     
+    //  MARK: - External dependencies
+    
     @Published var catBreeds: [CatBreedsResponse] = []
     private let networkService: NetworkServiceProtocol
+    
+    //  MARK: - init
     
     init(networkService: NetworkServiceProtocol) {
         self.networkService = networkService
     }
+    
+    //  MARK: - public methods
     
     func fetchData() async throws {
         let apiKey = "live_zlt9VgCe6KB3Mfm7hZ5BvRyoWL15lDL9jGa5UDMieEHJgq8X07lIgddqMWNFPbKu"

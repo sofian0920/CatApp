@@ -17,14 +17,18 @@ private enum Constants {
 
 struct CatDetailView: View {
     
+    //  MARK: - External dependencies
+    
+    @Environment(\.colorScheme) var colorScheme
+    private let viewModel = MainViewModel(networkService: NetworkService())
+    
+    let catBreed: CatBreedsResponse
+    
+    //  MARK: - private properties
+    
     @State private var image: UIImage?
     @State private var currentAmount: CGFloat = 0
     @State private var lastAmount: CGFloat = 0
-    
-    @Environment(\.colorScheme) var colorScheme
-    
-    let catBreed: CatBreedsResponse
-    private let viewModel = MainViewModel(networkService: NetworkService())
     
     var body: some View {
         VStack {

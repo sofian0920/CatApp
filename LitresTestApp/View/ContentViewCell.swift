@@ -12,11 +12,17 @@ enum ImageLoadingError: Error {
 }
 
 struct ContentViewCell: View {
+    
+    //  MARK: - External dependencies
+    
+    @Environment(\.colorScheme) var colorScheme
+    
     let catBreed: CatBreedsResponse
     let onTap: () -> Void
     
+    //  MARK: - private properties
+    
     @State private var image: UIImage?
-    @Environment(\.colorScheme) var colorScheme
     
     private let viewModel = MainViewModel(networkService: NetworkService())
     

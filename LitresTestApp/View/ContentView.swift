@@ -14,9 +14,14 @@ private enum Constants {
 }
 
 struct ContentView: View {
+    
+    //  MARK: - private properties
+    
     @StateObject private var viewModel: MainViewModel
     @State private var isNetworkConnected = true
     @State private var selectedCatBreed: CatBreedsResponse?
+    
+    //  MARK: - init
     
     init(viewModel: MainViewModel) {
         self._viewModel = StateObject(wrappedValue: viewModel)
