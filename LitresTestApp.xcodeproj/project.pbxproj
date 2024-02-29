@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC76127F2B8CDD4D0025E67E /* LitresTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC76127E2B8CDD4D0025E67E /* LitresTestAppApp.swift */; };
+		AC7612812B8CDD4D0025E67E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7612802B8CDD4D0025E67E /* ContentView.swift */; };
+		AC7612832B8CDD4F0025E67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7612822B8CDD4F0025E67E /* Assets.xcassets */; };
+		AC7612862B8CDD4F0025E67E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7612852B8CDD4F0025E67E /* Preview Assets.xcassets */; };
+		AC7612922B8CE1E00025E67E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7612912B8CE1E00025E67E /* Model.swift */; };
+		AC8C461B2B8F55FA0081FEA4 /* CatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8C461A2B8F55FA0081FEA4 /* CatDetailView.swift */; };
+		ACA56C1E2B8DF1D80009899A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA56C1D2B8DF1D80009899A /* NetworkService.swift */; };
+		ACA56C202B8E2F990009899A /* ContentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA56C1F2B8E2F990009899A /* ContentViewCell.swift */; };
+		ACA56C222B8F1D300009899A /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA56C212B8F1D300009899A /* NetworkServiceProtocol.swift */; };
+		ACA56C242B8F23330009899A /* ViewModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA56C232B8F23330009899A /* ViewModel .swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC76127B2B8CDD4D0025E67E /* LitresTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LitresTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC76127E2B8CDD4D0025E67E /* LitresTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LitresTestAppApp.swift; sourceTree = "<group>"; };
+		AC7612802B8CDD4D0025E67E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC7612822B8CDD4F0025E67E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC7612852B8CDD4F0025E67E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC7612912B8CE1E00025E67E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AC8C461A2B8F55FA0081FEA4 /* CatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailView.swift; sourceTree = "<group>"; };
+		ACA56C1D2B8DF1D80009899A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		ACA56C1F2B8E2F990009899A /* ContentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewCell.swift; sourceTree = "<group>"; };
+		ACA56C212B8F1D300009899A /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		ACA56C232B8F23330009899A /* ViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModel .swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC7612782B8CDD4D0025E67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC7612722B8CDD4D0025E67E = {
+			isa = PBXGroup;
+			children = (
+				AC76127D2B8CDD4D0025E67E /* LitresTestApp */,
+				AC76127C2B8CDD4D0025E67E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC76127C2B8CDD4D0025E67E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC76127B2B8CDD4D0025E67E /* LitresTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC76127D2B8CDD4D0025E67E /* LitresTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				AC76128E2B8CDEE20025E67E /* Model */,
+				AC76128D2B8CDEDA0025E67E /* ViewModel */,
+				AC76128C2B8CDECF0025E67E /* View */,
+				AC7612902B8CDF4F0025E67E /* NetworkLayer  */,
+				AC76128F2B8CDF3A0025E67E /* Common */,
+				AC7612842B8CDD4F0025E67E /* Preview Content */,
+			);
+			path = LitresTestApp;
+			sourceTree = "<group>";
+		};
+		AC7612842B8CDD4F0025E67E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC7612852B8CDD4F0025E67E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC76128C2B8CDECF0025E67E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC7612802B8CDD4D0025E67E /* ContentView.swift */,
+				ACA56C1F2B8E2F990009899A /* ContentViewCell.swift */,
+				AC8C461A2B8F55FA0081FEA4 /* CatDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC76128D2B8CDEDA0025E67E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ACA56C232B8F23330009899A /* ViewModel .swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AC76128E2B8CDEE20025E67E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC7612912B8CE1E00025E67E /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC76128F2B8CDF3A0025E67E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AC76127E2B8CDD4D0025E67E /* LitresTestAppApp.swift */,
+				AC7612822B8CDD4F0025E67E /* Assets.xcassets */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AC7612902B8CDF4F0025E67E /* NetworkLayer  */ = {
+			isa = PBXGroup;
+			children = (
+				ACA56C1D2B8DF1D80009899A /* NetworkService.swift */,
+				ACA56C212B8F1D300009899A /* NetworkServiceProtocol.swift */,
+			);
+			path = "NetworkLayer ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC76127A2B8CDD4D0025E67E /* LitresTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7612892B8CDD4F0025E67E /* Build configuration list for PBXNativeTarget "LitresTestApp" */;
+			buildPhases = (
+				AC7612772B8CDD4D0025E67E /* Sources */,
+				AC7612782B8CDD4D0025E67E /* Frameworks */,
+				AC7612792B8CDD4D0025E67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LitresTestApp;
+			productName = LitresTestApp;
+			productReference = AC76127B2B8CDD4D0025E67E /* LitresTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC7612732B8CDD4D0025E67E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AC76127A2B8CDD4D0025E67E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = AC7612762B8CDD4D0025E67E /* Build configuration list for PBXProject "LitresTestApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC7612722B8CDD4D0025E67E;
+			productRefGroup = AC76127C2B8CDD4D0025E67E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC76127A2B8CDD4D0025E67E /* LitresTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC7612792B8CDD4D0025E67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7612862B8CDD4F0025E67E /* Preview Assets.xcassets in Resources */,
+				AC7612832B8CDD4F0025E67E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC7612772B8CDD4D0025E67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA56C202B8E2F990009899A /* ContentViewCell.swift in Sources */,
+				AC8C461B2B8F55FA0081FEA4 /* CatDetailView.swift in Sources */,
+				ACA56C1E2B8DF1D80009899A /* NetworkService.swift in Sources */,
+				ACA56C222B8F1D300009899A /* NetworkServiceProtocol.swift in Sources */,
+				AC7612922B8CE1E00025E67E /* Model.swift in Sources */,
+				AC7612812B8CDD4D0025E67E /* ContentView.swift in Sources */,
+				AC76127F2B8CDD4D0025E67E /* LitresTestAppApp.swift in Sources */,
+				ACA56C242B8F23330009899A /* ViewModel .swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC7612872B8CDD4F0025E67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC7612882B8CDD4F0025E67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC76128A2B8CDD4F0025E67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LitresTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R8Q96AG2X9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "norina-sofia.LitresTestApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC76128B2B8CDD4F0025E67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LitresTestApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R8Q96AG2X9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "norina-sofia.LitresTestApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC7612762B8CDD4D0025E67E /* Build configuration list for PBXProject "LitresTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7612872B8CDD4F0025E67E /* Debug */,
+				AC7612882B8CDD4F0025E67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7612892B8CDD4F0025E67E /* Build configuration list for PBXNativeTarget "LitresTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC76128A2B8CDD4F0025E67E /* Debug */,
+				AC76128B2B8CDD4F0025E67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7612732B8CDD4D0025E67E /* Project object */;
+}
